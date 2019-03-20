@@ -1,0 +1,4 @@
+Erro de quantidade de caracteres na migrate:
+
+use Illuminate\Support\Facades\Schema;
+Schema::defaultStringLength(191);
