@@ -25,10 +25,10 @@ class HomeController extends Controller
     public function index(Post $post)
     {
         // Listando todos os posts
-        // $posts = $post->all();
+        $posts = $post->all();
 
         // Listando posts de determinado usuário
-        $posts = $post->where('user_id', auth()->user()->id)->get();
+        //$posts = $post->where('user_id', auth()->user()->id)->get();
 
         return view('home', compact('posts'));
         
