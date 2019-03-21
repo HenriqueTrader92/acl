@@ -1,4 +1,8 @@
-Erro de quantidade de caracteres na migrate:
+-> Erro de quantidade de caracteres na migrate:
+    use Illuminate\Support\Facades\Schema;
+    Schema::defaultStringLength(191);
+-> Erro ao tentar usa a primeira vez o ACL
+    Mudar as configurações do que mostra no curso para o que tem no post abaixo...
+    https://stackoverflow.com/questions/52558633/call-to-undefined-method-illuminate-support-facades-gatedefine
 
-use Illuminate\Support\Facades\Schema;
-Schema::defaultStringLength(191);
+
